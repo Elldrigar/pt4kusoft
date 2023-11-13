@@ -1,8 +1,14 @@
+import logo from '@/../public/images/logo.png'
+import Image from 'next/image'
+import Link from "next/link";
+
 const Logo = () => {
     return(
-        <h1>
-            LOGO
-        </h1>
+        <Link href='/'>
+            <div className='w-28'>
+                <Image src={logo} alt='Ptakusoft' className='w-full h-auto'/>
+            </div>
+        </Link>
     )
 }
 
