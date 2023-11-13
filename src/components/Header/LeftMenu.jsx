@@ -1,9 +1,5 @@
 const LefttMenu = () => {
-    return(
-        <nav>
-            LEWE MENU
-        </nav>
-    )
+  return <nav className='flex w-full justify-end'>LEWE MENU</nav>
 }
 
 export default LefttMenu
